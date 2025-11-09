@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Un livre avec la tour Eiffel sur la couverture",
+    "path": "upload/1 . Un livre avec la tour Eiffel sur la couverture.jpg",
+    "size": 291646,
+    "modified": "2025-11-07T09:02:14.145Z"
+  },
+  {
+    "id": 2,
+    "name": "Un roman de'un genre qu'on a n'a pas l'habitude de lire",
+    "path": "upload/2 . Un roman de'un genre qu'on a n'a pas l'habitude de lire.jpg",
+    "size": 337105,
+    "modified": "2025-11-07T09:02:37.712Z"
+  },
+  {
+    "id": 3,
+    "name": "Un livre avec un ersonnage nu sur la couverture",
+    "path": "upload/3 .Un livre avec un ersonnage nu sur la couverture.jpg",
+    "size": 354539,
+    "modified": "2025-11-07T09:03:05.770Z"
+  },
+  {
+    "id": 4,
+    "name": "Un livre dont l'intrigue se déroule sur le continent africain",
+    "path": "upload/4. Un livre dont l'intrigue se déroule sur le continent africain.jpg",
+    "size": 313669,
+    "modified": "2025-11-07T09:03:33.737Z"
+  },
+  {
+    "id": 5,
+    "name": "Un livre dont la couverture montre un monument célébre",
+    "path": "upload/5. Un livre dont la couverture montre un monument célébre.jpg",
+    "size": 420556,
+    "modified": "2025-11-07T09:04:05.868Z"
+  },
+  {
+    "id": 6,
+    "name": "Un livre dont l'auteur vient de ou vit dans la même ville que vous",
+    "path": "upload/6. Un livre dont l'auteur vient de ou vit dans la même ville que vous.jpg",
+    "size": 198422,
+    "modified": "2025-11-07T09:09:35.165Z"
+  },
+  {
+    "id": 7,
+    "name": "Un roman dont le titre contient un des douze signe astrologique",
+    "path": "upload/7. Un roman dont le titre contient un des douze signe astrologique.jpg",
+    "size": 546825,
+    "modified": "2025-11-07T09:10:02.134Z"
+  },
+  {
+    "id": 8,
+    "name": "Un roman dont l'histoire se passe pendant l'Entre-deux-gueurres",
+    "path": "upload/8. Un roman dont l'histoire se passe pendant l'Entre-deux-gueurres.jpg",
+    "size": 428716,
+    "modified": "2025-11-07T09:11:00.888Z"
+  },
+  {
+    "id": 9,
+    "name": "Un roman qui traite de la santé mentale",
+    "path": "upload/9 Un roman qui traite de la santé mentale.jpg",
+    "size": 86312,
+    "modified": "2025-11-07T09:11:26.049Z"
+  },
+  {
+    "id": 10,
+    "name": "Une categorie du Chalenge 2025",
+    "path": "upload/10. Une categorie du Chalenge 2025.jpg",
+    "size": 347451,
+    "modified": "2025-11-07T09:11:41.857Z"
+  },
+  {
+    "id": 11,
+    "name": "Un livre avec un gros mot dans le titre",
+    "path": "upload/11. Un livre avec un gros mot dans le titre.jpg",
+    "size": 336504,
+    "modified": "2025-11-07T09:12:56.026Z"
+  },
+  {
+    "id": 12,
+    "name": "Un rorman de moins de 300 pages",
+    "path": "upload/12 Un rorman de moins de 300 pages.jpg",
+    "size": 274327,
+    "modified": "2025-11-08T09:42:13.116Z"
+  },
+  {
+    "id": 13,
+    "name": "Un livre dont le personnage principale est une femme",
+    "path": "upload/13 Un livre dont le personnage principale est une femme.jpg",
+    "size": 278507,
+    "modified": "2025-11-07T09:13:18.667Z"
+  },
+  {
+    "id": 14,
+    "name": "Un livre avec un titre anglais",
+    "path": "upload/14 Un livre avec un titre anglais.jpg",
+    "size": 199616,
+    "modified": "2025-11-07T09:13:49.945Z"
+  },
+  {
+    "id": 15,
+    "name": "Un livre où un personnage fête son anniversaire",
+    "path": "upload/15 Un livre où un personnage fête son anniversaire.jpg",
+    "size": 82341,
+    "modified": "2025-11-07T09:14:06.863Z"
+  },
+  {
+    "id": 16,
+    "name": "Un livre dont l'histoire se passe sur lusieurs décennies",
+    "path": "upload/16 Un livre dont l'histoire se passe sur lusieurs décennies.jpg",
+    "size": 169949,
+    "modified": "2025-11-07T09:14:28.240Z"
+  },
+  {
+    "id": 17,
+    "name": "Le dernier tome d'une série",
+    "path": "upload/17 Le dernier tome d'une série.jpg",
+    "size": 289672,
+    "modified": "2025-11-07T09:15:11.504Z"
+  },
+  {
+    "id": 18,
+    "name": "Un livre qui a gagné un prix littéraire insolite ou un peu connu",
+    "path": "upload/18 Un livre qui a gagné un prix littéraire insolite ou un peu connu.jpg",
+    "size": 209416,
+    "modified": "2025-11-07T09:17:11.537Z"
+  },
+  {
+    "id": 19,
+    "name": "Un livre dont un des personnage principaux est un animal",
+    "path": "upload/19 Un livre dont un des personnage principaux est un animal.jpg",
+    "size": 238527,
+    "modified": "2025-11-07T09:17:34.390Z"
+  },
+  {
+    "id": 20,
+    "name": "Une cosy fantasy",
+    "path": "upload/20 Une cosy fantasy.jpg",
+    "size": 209354,
+    "modified": "2025-11-07T09:18:49.171Z"
+  },
+  {
+    "id": 21,
+    "name": "Un livre publié en 2016",
+    "path": "upload/21 Un livre publié en 2016.jpg",
+    "size": 129364,
+    "modified": "2025-11-07T09:19:24.868Z"
+  },
+  {
+    "id": 22,
+    "name": "Un classique de la littérature américaine",
+    "path": "upload/22 Un classique de la littérature américaine.jpg",
+    "size": 153931,
+    "modified": "2025-11-07T09:20:30.918Z"
+  },
+  {
+    "id": 23,
+    "name": "Un livre dont les bénéfices sont reversés à une association",
+    "path": "upload/23 Un livre dont les bénéfices sont reversés à une association.jpg",
+    "size": 335638,
+    "modified": "2025-11-07T09:20:50.276Z"
+  },
+  {
+    "id": 24,
+    "name": "Un roman choral",
+    "path": "upload/24 Un roman choral.jpg",
+    "size": 311087,
+    "modified": "2025-11-08T09:43:15.786Z"
+  },
+  {
+    "id": 25,
+    "name": "Le classique incontournable d'un genre qu'on connait peu",
+    "path": "upload/25 Le classique incontournable d'un genre qu'on connait peu.jpg",
+    "size": 287611,
+    "modified": "2025-11-08T09:44:27.156Z"
+  },
+  {
+    "id": 26,
+    "name": "Un roman dont l'histoire se déroule sur deux contients",
+    "path": "upload/26 Un roman dont l'histoire se déroule sur deux contients.jpg",
+    "size": 220822,
+    "modified": "2025-11-07T09:21:12.031Z"
+  },
+  {
+    "id": 27,
+    "name": "Relire un lovre qu'on avait dû lire durant notre scolarité",
+    "path": "upload/27 Relire un lovre qu'on avait dû lire durant notre scolarité.jpg",
+    "size": 272864,
+    "modified": "2025-11-07T09:21:36.912Z"
+  },
+  {
+    "id": 28,
+    "name": "Un livre dont l'auteur a unn nom de famille qui est un prénom",
+    "path": "upload/28 Un livre dont l'auteur a unn nom de famille qui est un prénom.jpg",
+    "size": 293255,
+    "modified": "2025-11-07T09:22:11.406Z"
+  },
+  {
+    "id": 29,
+    "name": "Une BD recommandé par un libraire",
+    "path": "upload/29 Une BD recommandé par un libraire.jpg",
+    "size": 271118,
+    "modified": "2025-11-08T11:45:02.786Z"
+  },
+  {
+    "id": 30,
+    "name": "Un roman dont l'intrigue se passe en Suisse",
+    "path": "upload/30 Un roman dont l'intrigue se passe en Suisse.jpg",
+    "size": 303182,
+    "modified": "2025-11-07T09:22:48.830Z"
+  },
+  {
+    "id": 31,
+    "name": "Un livre dont le titre est écrit dans votre couleur préférée",
+    "path": "upload/31 Un livre dont le titre est écrit dans votre couleur préférée.jpg",
+    "size": 219349,
+    "modified": "2025-11-07T09:23:06.786Z"
+  },
+  {
+    "id": 32,
+    "name": "Un livre qui se passe dans un café ou un restaurant",
+    "path": "upload/32 Un livre qui se passe dans un café ou un restaurant.jpg",
+    "size": 396404,
+    "modified": "2025-11-07T09:23:26.402Z"
+  },
+  {
+    "id": 33,
+    "name": "un livre trouvé par hasard (sur un banc, un arret de bus...)",
+    "path": "upload/33 un livre trouvé par hasard (sur un banc, un arret de bus...).jpg",
+    "size": 417706,
+    "modified": "2025-11-07T09:24:13.581Z"
+  },
+  {
+    "id": 34,
+    "name": "Un liver dont on trouve la couverture laide",
+    "path": "upload/34 Un liver dont on trouve la couverture laide.jpg",
+    "size": 349183,
+    "modified": "2025-11-07T09:26:02.525Z"
+  },
+  {
+    "id": 35,
+    "name": "un livre qui commence par un départ",
+    "path": "upload/35 un livre qui commence par un départ.jpg",
+    "size": 372002,
+    "modified": "2025-11-07T09:26:19.977Z"
+  },
+  {
+    "id": 36,
+    "name": "Un livre dont les personnage sont LGBTQIA+",
+    "path": "upload/36 Un livre dont les personnage sont LGBTQIA+.jpg",
+    "size": 156254,
+    "modified": "2025-11-07T09:26:40.596Z"
+  },
+  {
+    "id": 37,
+    "name": "Un roman avec un bateau sur la couverture",
+    "path": "upload/37 Un roman avec un bateau sur la couverture.jpg",
+    "size": 186411,
+    "modified": "2025-11-07T09:26:53.753Z"
+  },
+  {
+    "id": 38,
+    "name": "Un roman se déroulant pendant une révolution",
+    "path": "upload/38 Un roman se déroulant pendant une révolution.jpg",
+    "size": 502506,
+    "modified": "2025-11-07T09:27:12.593Z"
+  },
+  {
+    "id": 39,
+    "name": "Un livre de dévelopement personnel",
+    "path": "upload/39 Un livre de dévelopement personnel.jpg",
+    "size": 284734,
+    "modified": "2025-11-07T09:27:32.734Z"
+  },
+  {
+    "id": 40,
+    "name": "Un livre dont le titre contient un ou plusieurs mots dans une autre langue",
+    "path": "upload/40 Un livre dont le titre contient un ou plusieurs mots dans une autre langue.jpg",
+    "size": 352787,
+    "modified": "2025-11-07T09:28:11.013Z"
+  },
+  {
+    "id": 41,
+    "name": "Un roman dont le nombre de pages se finit par 10",
+    "path": "upload/41 Un roman dont le nombre de pages se finit par 10.jpg",
+    "size": 135416,
+    "modified": "2025-11-07T09:28:31.505Z"
+  },
+  {
+    "id": 42,
+    "name": "Un roman dont le prenom de l'auteur contient les lettre W, X, Y ou Z",
+    "path": "upload/42 Un roman dont le prenom de l'auteur contient les lettre W, X, Y ou Z.jpg",
+    "size": 147793,
+    "modified": "2025-11-07T09:28:55.924Z"
+  },
+  {
+    "id": 43,
+    "name": "Un livre qui donne envie de créer (écrire, peindre, voyager...)",
+    "path": "upload/43 Un livre qui donne envie de créer (écrire, peindre, voyager...).jpg",
+    "size": 205752,
+    "modified": "2025-11-07T09:29:15.424Z"
+  },
+  {
+    "id": 44,
+    "name": "Le dernier livre de votre auteur préféré",
+    "path": "upload/44 Le dernier livre de votre auteur préféré.jpg",
+    "size": 195273,
+    "modified": "2025-11-07T09:31:17.143Z"
+  },
+  {
+    "id": 45,
+    "name": "Un livre qu'on aurait honte de lire dans le métro",
+    "path": "upload/45 Un livre qu'on aurait honte de lire dans le métro.jpg",
+    "size": 272518,
+    "modified": "2025-11-07T09:31:41.104Z"
+  },
+  {
+    "id": 46,
+    "name": "Un roman avec un lapin sur la couverture",
+    "path": "upload/46 Un roman avec un lapin sur la couverture.jpg",
+    "size": 198122,
+    "modified": "2025-11-07T09:31:54.766Z"
+  },
+  {
+    "id": 47,
+    "name": "Un livre dont l'histoire se déroule au bord de mer",
+    "path": "upload/47 Un livre dont l'histoire se déroule au bord de mer.jpg",
+    "size": 352811,
+    "modified": "2025-11-07T09:32:10.704Z"
+  },
+  {
+    "id": 48,
+    "name": "Un livre au titre énigmatique",
+    "path": "upload/48 Un livre au titre énigmatique.jpg",
+    "size": 204982,
+    "modified": "2025-11-07T09:32:40.142Z"
+  },
+  {
+    "id": 49,
+    "name": "Un roman dont le héros a un point communn avec vous",
+    "path": "upload/49 Un roman dont le héros a un point communn avec vous.jpg",
+    "size": 55563,
+    "modified": "2025-11-08T09:52:16.832Z"
+  },
+  {
+    "id": 50,
+    "name": "Un livre dont on n'a pas lu la quatriem de couverture",
+    "path": "upload/50 Un livre dont on n'a pas lu la quatriem de couverture.jpg",
+    "size": 96716,
+    "modified": "2025-11-08T11:46:35.658Z"
+  },
+  {
+    "id": 51,
+    "name": "La biographie d'une femme célèbre",
+    "path": "upload/51 La biographie d'une femme célèbre.jpg",
+    "size": 303292,
+    "modified": "2025-11-07T09:34:35.890Z"
+  },
+  {
+    "id": 52,
+    "name": "Un livre publié l'année de vos 10 ans",
+    "path": "upload/52 Un livre publié l'année de vos 10 ans.jpg",
+    "size": 262987,
+    "modified": "2025-11-07T09:36:31.716Z"
+  },
+  {
+    "id": 53,
+    "name": "Un livre avec trois oint de suspension dans le titre",
+    "path": "upload/53 Un livre avec trois oint de suspension dans le titre.jpg",
+    "size": 65970,
+    "modified": "2025-11-08T09:54:05.431Z"
+  },
+  {
+    "id": 54,
+    "name": "Un livre que l'on a envie de lire depuis longtemps",
+    "path": "upload/54 Un livre que l'on a envie de lire depuis longtemps.jpg",
+    "size": 178942,
+    "modified": "2025-11-07T09:37:48.968Z"
+  },
+  {
+    "id": 55,
+    "name": "Un livre acheté uniquement à cause de son titre",
+    "path": "upload/55 Un livre acheté uniquement à cause de son titre.jpg",
+    "size": 148115,
+    "modified": "2025-11-08T09:54:06.383Z"
+  },
+  {
+    "id": 56,
+    "name": "Le livre d'un auteur affricain",
+    "path": "upload/56 Le livre d'un auteur affricain.jpg",
+    "size": 43084,
+    "modified": "2025-11-08T09:53:15.708Z"
+  },
+  {
+    "id": 57,
+    "name": "Un livre en lien avec la saison à laquelle on le lit",
+    "path": "upload/57 Un livre en lien avec la saison à laquelle on le lit.jpg",
+    "size": 553726,
+    "modified": "2025-11-07T09:38:49.268Z"
+  },
+  {
+    "id": 58,
+    "name": "Un livre d'un auteur de plus de 70 ans",
+    "path": "upload/58 Un livre d'un auteur de plus de 70 ans.jpg",
+    "size": 567253,
+    "modified": "2025-11-07T09:39:15.212Z"
+  },
+  {
+    "id": 59,
+    "name": "Un receuil de nouvelle",
+    "path": "upload/59 Un receuil de nouvelle.jpg",
+    "size": 526819,
+    "modified": "2025-11-07T09:40:24.031Z"
+  },
+  {
+    "id": 60,
+    "name": "Un roman écrit par une Mélanie",
+    "path": "upload/60 Un roman écrit par une Mélanie.jpg",
+    "size": 173260,
+    "modified": "2025-11-08T09:53:14.957Z"
+  }
+]

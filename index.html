@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Liste des fichiers</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Challenge lecture Mademoiselle Farfalle 2026</h1>
+  <div class="grille-case" id="grille-case">
+    <!-- Les cartes seront insérées ici -->
+  </div>
+
+  <script>
+fetch('files.json')
+  .then(res => res.json())
+  .then(files => {
+    const grille = document.getElementById('grille-case');
+
+    files.forEach(f => {
+      const cardDiv = document.createElement('div');
+      cardDiv.className = 'case';
+      cardDiv.innerHTML = `
+        <div class="card" data-id="${f.id}">
+          <div class="front">
+            <div class="img-text">
+              <img src="${f.path}" alt="${f.name}" class="img-text">
+              <h3 class="text">${f.id} . ${f.name}</h3>
+            </div>
+          </div>
+          <div class="back">
+            <form class="form">
+              <label>Titre :</label>
+              <input type="text" name="titre" placeholder="Titre du livre">
+              <label>Auteur :</label>
+              <input type="text" name="auteur" placeholder="Auteur">
+              <button type="submit">Envoyer</button>
+              <button type="button" class="retour">Retour</button>
+            </form>
+            <div class="valide hidden">
+              <h3 class="titre"></h3>
+              <h3 class="auteur"></h3>
+            </div>
+          </div>
+        </div>
+      `;
+      grille.appendChild(cardDiv);
+    });
+
+    // === Ton script pour les interactions ===
+    document.querySelectorAll('.card').forEach(card => {
+      const cardId = card.getAttribute('data-id');
+      const front = card.querySelector('.front');
+      const form = card.querySelector('form');
+      const retourBtn = card.querySelector('.retour');
+      const valide = card.querySelector('.valide');
+
+      const saved = localStorage.getItem(`card-${cardId}`);
+      if (saved) {
+        const data = JSON.parse(saved);
+        valide.querySelector('.titre').textContent = data.titre;
+        valide.querySelector('.auteur').textContent = data.auteur;
+        valide.classList.remove('hidden');
+        if (form) form.classList.add('hidden');
+        card.classList.add('flipped');
+      }
+
+      front.addEventListener('click', () => card.classList.add('flipped'));
+
+      if (form) {
+        form.addEventListener('click', e => e.stopPropagation());
+
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          const titre = form.querySelector('input[name="titre"]').value.trim();
+          const auteur = form.querySelector('input[name="auteur"]').value.trim();
+          if (!titre || !auteur) { alert("Veuillez remplir les champs"); return; }
+
+          valide.querySelector('.titre').textContent = titre;
+          valide.querySelector('.auteur').textContent = auteur;
+          valide.classList.remove('hidden');
+          form.classList.add('hidden');
+          localStorage.setItem(`card-${cardId}`, JSON.stringify({ titre, auteur }));
+          card.classList.add('flipped');
+        });
+      }
+
+      if (retourBtn) {
+        retourBtn.addEventListener('click', e => {
+          e.stopPropagation();
+          card.classList.remove('flipped');
+        });
+      }
+    });
+
+  })
+  .catch(err => console.error("Erreur :", err));
+
+  //localStorage.clear(); // décommenter si nécessaire
+</script>
+
+</body>
+</html>

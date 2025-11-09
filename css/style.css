@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Butler";
+    src: url(../font/Butler_Regular_Stencil.otf) format(opentype);
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Butler";
+    background: linear-gradient(90deg, #C1EBF9, #DDD0EC, #FECCD8, #FEE5CF);
+}
+
+h1 {
+    text-align: center;
+}
+
+.grille-case{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 300px;
+    
+}
+.case {
+  width: 150px;
+  height: 200px;
+  perspective: 1000px;
+  margin: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+/* Faces communes */
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* --- Face avant --- */
+.front .img-text {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.front .img-text::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.front h3 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  z-index: 2;
+  text-align: end;
+}
+
+/* --- Face arrière --- */
+.back {
+  background-color: #FECCD8;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+.hidden {
+  display: none;
+}
+
+.back label {
+    text-align: center;
+}
+
+.back input{
+    border:none;
+    border-radius: 5px;
+    color: #ccc;
+}
+
+.back button {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  font-family: "Butler";
+  background-color: #fa7292;
+  cursor: pointer;
+}
+
+.back button :hover {
+  background-color: #ccc;
+}
+
+/* Bouton retour distinct */
+.back .retour {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  font-family: "Butler";
+  background-color: #b65068;;
+  cursor: pointer;
+}
+
+/* --- États de rotation --- */
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+/* --- Gestion des clics --- */
+.card .front {
+  pointer-events: auto;
+}
+.card.flipped .front {
+  pointer-events: none;
+}
+.card.flipped .back {
+  pointer-events: auto;
+}
+
+/* verte */
+
+
+.valide {
+  background-color: #b2f2bb;
+  position: relative;
+  width: 150px;
+  height: 200px;
+}
+
+.valide h3{
+  margin:25%;
+}
+
